@@ -8,23 +8,25 @@
     <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
     <link rel="stylesheet" href="style.css">
     <source src="./index.js">
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
-<section id="header">
+<div class="header" id="myHeader">
+    <h2>GannonIs.Fun</h2>
+   
+    <a href="/index.html"> Home</a>
+    <a href="/aboutme.html">About Me</a>
+    <a href="/resume.html"> Resume</a>
     
-    <div class="header" id="myHeader">
-        <h2>My Header</h2>
-       
-        <a href="/index.html"> Home</a>
-        <a href="/aboutme.html">About Me</a>
-        <a href="/resume.html"> Resume</a>
-        
-      </div>
+  </div>
+
 </section>
 <body>
-    <section id="body">
+    <section id="resume-body">
         <h3>Resume: </h3>
-        <iframe width="800" height="800" src="https://docs.google.com/document/d/e/2PACX-1vRJKDvr-0AY22NnOSUAHV4tmoqNEidj68UOKbItI1Nad5xXrpJgrrXNA6tXDx9-Ow/pub?embedded=true"></iframe>
+        
+        <iframe id="embeded-resume" width="1000" height="1000" src="https://docs.google.com/document/d/e/2PACX-1vRJKDvr-0AY22NnOSUAHV4tmoqNEidj68UOKbItI1Nad5xXrpJgrrXNA6tXDx9-Ow/pub?embedded=true"></iframe>
+
     </section>
    
 </body>

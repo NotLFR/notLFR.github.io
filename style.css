@@ -21,3 +21,21 @@
   .sticky + .content {
     padding-top: 102px;
   }
+  .resume-body {
+    position: center;
+    margin-left: auto;
+  }
+  blockquote {
+    color : #666;
+    font-size : 0.95em;
+    margin-top : 0px;
+    margin-bottom : 1em;
+    padding-top : 0;
+    padding-bottom : 0;
+    margin-left : 10px;
+    padding-left : 10px;
+    border-left : 1px solid silver;
+  }
+  .blockquote-para {
+    margin-left: 30px;
+  }
