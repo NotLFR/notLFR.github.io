@@ -1,41 +1,54 @@
-/* Style the header */
-.header {
-    padding: 10px 16px;
-    background: rgb(22, 27, 31);
-    color: #f1f1f1;
-  }
-  
-  /* Page content */
-  .content {
-    padding: 16px;
-  }
-  
-  /* The sticky class is added to the header with JS when it reaches its scroll position */
-  .sticky {
-    position: fixed;
-    top: 0;
-    width: 100%
-  }
-  
-  /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
-  .sticky + .content {
-    padding-top: 102px;
-  }
-  .resume-body {
-    position: center;
-    margin-left: auto;
-  }
-  blockquote {
-    color : #666;
-    font-size : 0.95em;
-    margin-top : 0px;
-    margin-bottom : 1em;
-    padding-top : 0;
-    padding-bottom : 0;
-    margin-left : 10px;
-    padding-left : 10px;
-    border-left : 1px solid silver;
-  }
-  .blockquote-para {
-    margin-left: 30px;
-  }
+.webmadewell {
+  background-color: white;
+}
+body {
+  margin: 0;
+}
+.sample-header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-image: url("http://webmadewell.com/wp-content/uploads/2018/01/img-bg-sample-parallax-header.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.sample-header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: MidnightBlue;
+  opacity: 0.3;
+}
+.sample-header-section {
+  position: relative;
+  padding: 15% 0 10%;
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+  font-family: "Montserrat", sans-serif;
+}
+h1 {
+  font-weight: 500;
+}
+h2 {
+  font-weight: 400;
+}
+.sample-section-wrap {
+  position: relative;
+  background-color: white;
+}
+.sample-section {
+  position: relative;
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px;
+}
+
