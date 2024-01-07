@@ -51,11 +51,11 @@ function App() {
         >
           <h2>About me!</h2>
           <p>Welcome to my new and improved website.</p>
-        <p>I am currently employed by <a href="https://www.firstlight.net/" target='blank'>Firstlight</a></p>
-         <p>To book me on Calendly click the emoji <a href="https://calendly.com/g_oconnor/30min" >🗓️</a></p> 
+        <p>I am currently employed by <a href="https://www.firstlight.net/" target='_blank'>Firstlight</a></p>
+         <p>To book me on Calendly click the emoji <a target='_blank' href="https://calendly.com/g_oconnor/30min" >🗓️</a></p> 
          <br />
-         <p><a href="https://docs.google.com/document/d/e/2PACX-1vQavsygp5SQMpwX5qmSjj23pWbN2760NN-w_X-4tLv7KMPzCcrnUHlzRSIcc_k92Q/pub" target='blank'>Résumé</a></p>
-         <p><a href="https://www.linkedin.com/in/gannon-o-connor-593871161/" target='blank'>LinkedIn</a></p>
+         <p><a href="https://docs.google.com/document/d/e/2PACX-1vQavsygp5SQMpwX5qmSjj23pWbN2760NN-w_X-4tLv7KMPzCcrnUHlzRSIcc_k92Q/pub" target='_blank'>Résumé</a></p>
+         <p><a href="https://www.linkedin.com/in/gannon-o-connor-593871161/" target='_blank'>LinkedIn</a></p>
         <br />
         <p>Shoot For The Stars 💫</p>
         </ParallaxLayer>
