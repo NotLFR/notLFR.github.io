@@ -1,6 +1,6 @@
 import { useRef } from 'react';
-import moon from '/Users/oconn/parallax/src/moon.jpg'
-import land from '/Users/oconn/parallax/src/land.jpg'
+import moon from './assets/moon.jpg'
+import land from './assets/land.jpg'
 import { Parallax, ParallaxLayer } from "@react-spring/parallax"
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
 
