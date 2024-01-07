@@ -8,7 +8,6 @@ import { Parallax, ParallaxLayer } from "@react-spring/parallax"
 
 function App() {
   const ref = useRef();
-
   return (
     <div>
       <Parallax pages={4} ref={ref}>
