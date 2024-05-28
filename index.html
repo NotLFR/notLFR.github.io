@@ -1,80 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>Gannon Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.indigo.min.css"/>
+    <title>Gannon Website</title>
 </head>
+<header class="sticky">
+    <a href="./index.html"><button>Home</button></a>
+    <a href="./resume.html"><button class="secondary" >Resume</button></a>
+    <a href="./construction.html"></a><button disabled>Projects</button>
+     <a href="./construction.html"></a><button disabled class="secondary">Under Construction</button>
+</header>
 <body>
-  <section class="zoom">
-    <img src="imgs/mountain1.png" id="layer1">
-    <img src="imgs/mountain2.png" id="layer2">
-    <img src="imgs/text.png" id="text">
-  </section>
-  <section class="content">
-    <section class="sec">
-      <h2>Welcome</h2>
-      <br>
-      <br>
-      <p>Page still under Construction</p>
-      <br>
-      <p>Welcome to my new and improved website.</p>
-      <br>
-      <br>
-      <br>
-      <p>Feel free to take a look around & find something out about me</p>
-      <br>
-      <br>
-      <br>
-      <p>Take a peek at my Résumé, however I am currently Employed by <a href="https://www.firstlight.net/" target="_blank">Firstlight</a> 🖐️❌</p>
-      <br>
-      <br>
-      <br>
-      <p>If you want to Contact Me, the form is right at the top of the page</p>
-      <br>
-      <br>
-      <br>
-      <p>You can also book me on Calendly <a href="https://calendly.com/g_oconnor/30min">here</a></p>
-      <br>
-      <br>
-      <br>
-      <p>Enjoy your stay! 😁</p>
-    </section>
-
-  </section>
-
-  <script type="text/javascript">
-var layer1 = document.getElementById('layer1')
-scroll = window.pageYOffset;
-document.addEventListener('scroll',
-function (e) {
-var offset = window.pageYOffset;
-scroll = offset
-layer1.style.width = (100+ scroll/5 + '%')
-});
-
-var layer2 = document.getElementById('layer2')
-scroll = window.pageYOffset;
-document.addEventListener('scroll',
-function (e) {
-var offset = window.pageYOffset;
-scroll = offset
-layer2.style.width = (100+ scroll/5) + '%';
-layer2.style.left = scroll/20 + '%'; 
-});
-
-var text = document.getElementById('text')
-scroll = window.pageYOffset;
-document.addEventListener('scroll',
-function (e) {
-var offset = window.pageYOffset;
-scroll = offset
-layer2.style.width = (100 + scroll/5) + '%';
-text.style.top = -scroll/20 + '%'; 
-});
-
-  </script>
-
+    <div class="container">
+        <h2><h1>Hi, I'm Gannon O'Connor</h1></h2>
+        <br>
+        <hgroup>
+            <h3>Welcome to my website</h3>
+            <h5>This is still a work in progress, but I wanted to get this published.</h5>
+        </hgroup>
+    </div>
 </body>
 </html>
